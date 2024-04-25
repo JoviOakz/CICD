@@ -66,32 +66,32 @@ describe('CPF verifier', () => {
         const res = CPF_verifier('145220620');
         expect(res).toBe('Erro');
     }),
-    it('Deve retornar o resultado se o CPF for verificado', () => {
-        const res = CPF_verifier('14538220620');
-        expect(res).toBe('Verificado');
-    }),
-    it('Deve retornar o resultado se o CPF for verificado', () => {
-        const res = CPF_verifier('13183942950');
-        expect(res).toBe('Verificado');
-    }),
-    it('Deve retornar o resultado se o CPF não for verificado', () => {
-        const res = CPF_verifier('13183942911');
-        expect(res).toBe('Erro');
-    }),
-    it('Deve retornar o resultado se o CPF for verificado', () => {
-        const res = CPF_verifier('14062931990');
-        expect(res).toBe('Verificado');
-    }),
-    it('Deve retornar o resultado se o CPF for verificado', () => {
-        const res = CPF_verifier('07564684933');
-        expect(res).toBe('Verificado');
-    }),
-    it('Deve retornar o resultado se o CPF for verificado', () => {
-        const res = CPF_verifier('10211636940');
-        expect(res).toBe('Verificado');
-    }),
-    it('Deve retornar o resultado se o CPF for verificado', () => {
-        const res = CPF_verifier('25328753801');
-        expect(res).toBe('Verificado');
-    })
+        it('Deve retornar o resultado se o CPF for verificado', () => {
+            const res = CPF_verifier('14538220620');
+            expect(res).toBe('Verificado');
+        }),
+        it('Deve retornar o resultado se o CPF for verificado', () => {
+            const res = CPF_verifier('13183942950');
+            expect(res).toBe('Verificado');
+        }),
+        it('Deve retornar o resultado se o CPF não for verificado', () => {
+            const res = CPF_verifier('13183942911');
+            expect(res).toBe('Erro');
+        }),
+        it('Deve retornar o resultado se o CPF for verificado', () => {
+            const res = CPF_verifier('14062931990');
+            expect(res).toBe('Verificado');
+        }),
+        it('Deve retornar o resultado se o CPF for verificado', () => {
+            const res = CPF_verifier('07564684933');
+            expect(res).toBe('Verificado');
+        }),
+        it('Deve retornar o resultado se o CPF for verificado', () => {
+            const res = CPF_verifier('10211636940');
+            expect(res).toBe('Verificado');
+        }),
+        it('Deve retornar o resultado se o CPF for verificado', () => {
+            const res = CPF_verifier('25328753801');
+            expect(res).toBe('Verificado');
+        })
 })

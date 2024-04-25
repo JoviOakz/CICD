@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testEnvironment=node --watchAll --verbose --coverage"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "set NODE_ENV='test' && jest --testEnvironment=node --watchAll --verbose --coverage --detectOpenHandles",
+    "deploy": "jest --testEnvironment=node --verbose --detectOpenHandles",
+    "build": "set CI=false && npm i"
   },
   "keywords": [],
   "author": "",

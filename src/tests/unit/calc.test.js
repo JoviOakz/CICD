@@ -92,6 +92,6 @@ describe('CPF verifier', () => {
     }),
     it('Deve retornar o resultado se o CPF for verificado', () => {
         const res = CPF_verifier('25328753801');
-        expect(res).toBe('Verificado');
+        expect(res).toBe('eeee');
     })
 })

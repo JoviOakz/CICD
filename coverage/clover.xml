@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1714409380339" clover="3.2.0">
-  <project timestamp="1714409380339" name="All files">
-    <metrics statements="63" coveredstatements="61" conditionals="18" coveredconditionals="17" methods="12" coveredmethods="11" elements="93" coveredelements="89" complexity="0" loc="63" ncloc="63" packages="5" files="6" classes="6"/>
+<coverage generated="1714414815171" clover="3.2.0">
+  <project timestamp="1714414815171" name="All files">
+    <metrics statements="69" coveredstatements="66" conditionals="20" coveredconditionals="19" methods="13" coveredmethods="12" elements="102" coveredelements="97" complexity="0" loc="69" ncloc="69" packages="5" files="6" classes="6"/>
     <package name="CICD">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="C:\Users\disrct\Desktop\Jão Carvalho\CICD\index.js">
@@ -16,15 +16,21 @@
       </file>
     </package>
     <package name="CICD.controller">
-      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="User.js" path="C:\Users\disrct\Desktop\Jão Carvalho\CICD\controller\User.js">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
     <package name="CICD.routes">
